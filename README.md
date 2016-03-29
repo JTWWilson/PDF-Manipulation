@@ -1,2 +1,2 @@
 # PDF-Manipulation
-Using Python to manipulated .pdf files 
+Using Python to manipulate .pdf files 
