@@ -4,6 +4,10 @@
 import PyPDF2
 import os
 
+"""
+
+"""
+
 #edit these variables to suit your needs
 fileFolderPath=r'c:\Users\Jacob\Documents\Python\PDF Manipulation\Folder Location'
 #eg c:\Users\User\Documents\Location1
@@ -24,4 +28,3 @@ for file in files:
     newMerger.append(r'%s' %(file))
 
 newMerger.write(r'%s%s.pdf' %(outputFolderPath,outputFileName))
-#os.rename(,)
